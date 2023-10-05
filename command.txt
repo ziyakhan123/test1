@@ -1,0 +1,52 @@
+1)    Initialize a Git Repository:
+        git init: Initializes a new Git repository in the current directory.
+
+2)    Clone a Repository:
+        git clone <repository_url>: Creates a local copy of a remote Git repository.
+
+3)    Check Repository Status:
+        git status: Shows the status of your working directory, including untracked, modified, and staged files.
+
+4)    Stage Changes:
+        git add <file>: Stages changes for commit.
+        git add .: Stages all changes in the current directory.
+
+5)    Commit Changes:
+        git commit -m "Commit message": Commits staged changes with a descriptive message.
+
+6)    View Commit History:
+        git log: Shows a log of all commits in the current branch.
+
+7)    Branches:
+        git branch: Lists all local branches.
+        git branch <branch_name>: Creates a new branch.
+        git checkout <branch_name>: Switches to an existing branch.
+        git merge <branch_name>: Merges changes from one branch into the current branch.
+
+8)    Remote Repositories:
+        git remote -v: Lists remote repositories.
+        git remote add <name> <repository_url>: Adds a remote repository.
+        git push <remote> <branch>: Pushes commits to a remote repository.
+        git pull <remote> <branch>: Fetches changes from a remote repository and merges them into the current branch.
+
+9)    Discard Changes:
+        git checkout -- <file>: Discards changes in a specific file.
+        git reset <file>: Unstages changes in a specific file.
+        git reset --hard: Discards all changes in the working directory.
+
+10)    Undo Commits:
+        git reset HEAD~<number>: Resets the last <number> commits, preserving changes in the working directory.
+        git revert <commit_hash>: Reverts a specific commit by creating a new commit.
+
+11)    Tagging:
+        git tag <tag_name>: Creates a lightweight tag at the current commit.
+        git tag -a <tag_name> -m "Tag message": Creates an annotated tag with a message.
+
+12)    Gitignore:
+        Create a .gitignore file to specify files and directories that should be ignored by Git.
+
+13)    connect to git hub from locale machine
+       git remote add origin (paste the git hub repository url)
+
+14)    to remove the remote repository 
+       git remote remove origin
